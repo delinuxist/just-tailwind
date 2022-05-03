@@ -6,6 +6,7 @@ import Footer from "./components/layout/Footer";
 import Navbar from "./components/layout/Navbar";
 import Pricing from "./components/Pricing";
 import Support from "./components/Support";
+import { ScrollToTop } from "./components/utils/ScrollToTop";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Support />
       <Platforms />
       <Pricing />
+      <ScrollToTop />
       <Footer />
     </>
   );
