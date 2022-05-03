@@ -13,7 +13,7 @@ import bg2Img from "../assets/—Pngtree—artificial intelligence concept in 3d
 
 const Hero = () => {
   return (
-   <div name="home" className=' w-full md:h-screen h-full flex flex-col justify-between bg-gray-400'>
+   <div name="home" className=' w-full md:h-screen h-full pt-20 flex flex-col justify-between bg-gray-400'>
      <div className=' grid md:grid-cols-2 max-w-[1240px] m-auto'>
 <div className=' flex flex-col justify-center md:items-start w-full px-2 py-8'>
   <p className=' text-2xl'>Unique Sequencing & Production</p>
